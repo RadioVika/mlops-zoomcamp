@@ -1,5 +1,5 @@
 Connecting to EC2 instance
-`ssh -i ~/.ssh/mlops-zoomcamp.pem ubuntu@3.70.208.174`
+`ssh -i ~/.ssh/mlops-zoomcamp.pem ubuntu@3.67.34.146`
 
 Using short name
 `~/.ssh/config`
@@ -36,3 +36,15 @@ Make files in soft folder accesible
 add line
 `export PATH="${HOME}/soft:${PATH}"`
 `source .bashrc`
+
+Follow instructions
+https://docs.docker.com/engine/install/linux-postinstall/
+
+
+### Installing and running Jupyter Notebook
+```bash
+mkdir notebooks
+cd notebooks
+jupyter notebook
+
+```
